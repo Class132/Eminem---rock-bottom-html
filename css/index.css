@@ -1,0 +1,36 @@
+@import 'font.css'; 
+@import 'default.css'; 
+
+
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightslategray; */
+    margin-bottom: 3rem;
+}
+
+.container-main-text
+  { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    word-wrap: inherit;
+
+    flex-basis: 15px; 
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    /* width: 10rem; */
+    /* margin-right:                        ADD CONTAINER HEIGHT + (property) word-wrap чтобы текст переносился на новую строку  */
+}
+
+h1.container-header { 
+  animation: 3s animate infinite;
+  background-color: linear-gradient( yellow, green, blue, purple);
+}
+
+span.divisions {
+   text-shadow: 5px 3px 3px red; 
+}
